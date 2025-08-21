@@ -33,6 +33,8 @@ static const struct usb_device_id rtw_8814au_id_table[] = {
 	  .driver_info = (kernel_ulong_t)&(rtw8814a_hw_spec) },
 	{ USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x0106, 0xff, 0xff, 0xff),
 	  .driver_info = (kernel_ulong_t)&(rtw8814a_hw_spec) },
+	{ USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x0139, 0xff, 0xff, 0xff),
+	  .driver_info = (kernel_ulong_t)&(rtw8814a_hw_spec) },
 	{ USB_DEVICE_AND_INTERFACE_INFO(0x7392, 0xa834, 0xff, 0xff, 0xff),
 	  .driver_info = (kernel_ulong_t)&(rtw8814a_hw_spec) },
 	{ USB_DEVICE_AND_INTERFACE_INFO(0x7392, 0xa833, 0xff, 0xff, 0xff),
